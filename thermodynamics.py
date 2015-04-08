@@ -5,8 +5,8 @@ A series of functions to calculate thermodynamic variables
 
 compiled by Brett Basarab
 Colorado State University
-bbasarab[at] atmos.colostate.edu
-last updated March 2015
+bbasarab [at] atmos.colostate.edu
+last updated April 2015
 
 Unless otherwise indicated, most of these functions were written
 by Thomas Chubb and downloaded as part of a free python skew-T plotting
@@ -144,7 +144,7 @@ def ThetaV(tempk,pres,e):
 
     return theta*(1+mixr/Epsilon)/(1+mixr)
 
-
+# DSE, MSE, and SMSE functions written by Brett Basarab
 def DSE(tempk,height):
     """Dry static energy"""
     return Cp_da*tempk+grav*height
